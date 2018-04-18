@@ -1,0 +1,26 @@
+{
+  "name": "ipfs_id",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "author": "Tim Warren",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "format": "prettier-standard src/**/*.js"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-jsonschema-form": "^1.0.3",
+    "react-router-dom": "^4.2.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "chai": "^2.3.0"
+  }
+}
