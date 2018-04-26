@@ -15,11 +15,11 @@ export const Navbar = () => {
               Home
             </Link>
           </li>
-          {/* <li className='nav-item'>
-            <Link className='nav-link' to='/registration'>
-              Registration
+          <li className='nav-item'>
+            <Link className='nav-link' to='/create'>
+              Create
             </Link>
-          </li> */}
+          </li>
         </ul>
       </div>
     </nav>
