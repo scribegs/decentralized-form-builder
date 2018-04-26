@@ -10,17 +10,21 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
-    "babel-plugin-transform-runtime": "^6.23.0",
-    "babel-preset-env": "^1.6.1",
+    "ipfs-api": "^20.0.1",
     "react": "^16.3.1",
+    "react-codemirror": "^1.0.0",
     "react-dom": "^16.3.1",
     "react-jsonschema-form": "^1.0.3",
     "react-router-dom": "^4.2.2"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
-    "chai": "^2.3.0"
+    "chai": "^2.3.0",
+    "parcel-bundler": "^1.7.1"
   }
 }
